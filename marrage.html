@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marrage Buero</title>
+</head>
+<body>
+    <form action="result.html">
+        <h1>Marrage Info</h1>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name" pattern="{5,25}" title="max 5 to min 25">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter email">
+        <br>
+        <label for="no">Number</label>
+        <input type="no" name="number" id="number" placeholder="Enter number" pattern={10} title=" only 10 digits allowed">
+        <br>
+        <br>
+        <h1>Are you Interested Marrage</h1>
+        <label for="y">yes</label>
+        <input type="radio" name="marrage" id="yes">
+        <label for="n">no</label>
+        <input type="radio" name="marrage" id="no">
+        <br>
+        <h1>which person you like</h1>
+        <select name="person" id="person">
+            <option value="1">sadie</option>
+            <option value="2">sink</option>
+            <option value="3">max</option>
+            <option value="4">mayfelid</option>
+        </select>
+        <br>
+        <h1>Any summary</h1>
+        <textarea name="sum" id="sum" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" name="submit" id="submit">
+
+    </form>
+</body>
+</html>
